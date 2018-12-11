@@ -1,1 +1,0 @@
-# jgriskonyte.github.io
