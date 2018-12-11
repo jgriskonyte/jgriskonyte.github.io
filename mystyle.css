@@ -1,0 +1,72 @@
+     
+ .mrk {
+        color: rgb(255, 255, 255);
+        font-family: inherit;
+        font-size: 80pt;
+        font-style: italic;
+        text-align: center;
+        text-decoration:overline;
+        }
+table {
+        border: 5px solid #A05B0B;
+        border-collapse: collapse;
+        padding: 15px;
+        width: 50%;
+        background-color: #F4E1CB;
+                
+        }
+th, td{
+        border: 5px solid #A05B0B;
+        border-collapse: collapse;
+        padding: 15px;
+        height:5%;
+        }
+.antr{
+        color: #A05B0B;
+        font-family: inherit;
+        font-size: 30pt;
+        font-style: italic;
+        text-align: center;
+            }
+#vardas{
+        color: rgb(255, 255, 255);
+        font-family: inherit;
+        text-align: right;
+        font-size: 30pt;
+        }
+a:link{
+    color: #72522D;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #E85C94;
+    background-color: transparent;
+    text-decoration: none;
+}
+.ing{
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 35pt;
+    font-style: italic;
+    text-align: left;
+    text-decoration:overline;
+
+}
+li{
+    color:  rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 25pt;
+    text-align: left;
+}
+#skanaus{
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 35pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+                          
+        
