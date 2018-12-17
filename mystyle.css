@@ -53,7 +53,7 @@ a:visited {
     text-decoration:overline;
 
 }
-li{
+.li{
     color:  rgb(255, 255, 255);
     font-family: inherit;
     font-size: 25pt;
@@ -66,6 +66,13 @@ li{
     font-style: italic;
     font-weight: bold;
     text-align: right;
+}
+.index{
+    text-align: center;
+    font-family: inherit;
+    font-style: italic;
+    text-decoration: overline;
+    font-size: 40pt;
 }
 
                           
