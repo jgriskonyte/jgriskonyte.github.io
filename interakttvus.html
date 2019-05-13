@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="int.css">
+    </head>
+    <body bgcolor=" #4d5f7c"> 
+        <h1 class="antr">Interaktyvi užduotis</h1>
+        <p class="text">Pateik sprendimų sprendimo atsakymą</p>
+        
+        <p class="uzd">35-9=<input id="v1"><button onclick=tikrinti1()>Tikrinti</button></p><br/>
+        <p class="uzd">52-(-17)=<input id="v2"><button onclick=tikrinti2()>Tikrinti</button></p><br/>
+        <p class="uzd">54+0=<input id="v3"><button onclick=tikrinti3()>Tikrinti</button></p><br/>
+        <p class="uzd">7*8=<input id="v4"><button onclick=tikrinti4()>Tikrinti</button></p><br/>
+        <p class="uzd">66+29=<input id="v5"><button onclick=tikrinti5()>Tikrinti</button></p><br/>
+       
+        <script>
+            function tikrinti1()
+            {
+               var y= document.getElementById("v1").value;
+               if(y==26)
+                    document.body.style.backgroundColor="#5dad60", alert("Nuostabu!");
+                else document.body.style.backgroundColor="#db6c67", alert("Verksiu :(");    
+
+            }
+            function tikrinti2()
+            {
+               var y= document.getElementById("v2").value;
+               if(y==69)
+                    document.body.style.backgroundColor="#5dad60", alert("Tau puikiai sekasi!");
+                else document.body.style.backgroundColor="#db6c67", alert("oops");    
+
+            }
+            function tikrinti3()
+            {
+               var y= document.getElementById("v3").value;
+               if(y==54)
+                    document.body.style.backgroundColor="#5dad60", alert("YAY!");
+                else document.body.style.backgroundColor="#db6c67", alert("Depresija!");    
+
+            }
+            function tikrinti4()
+            {
+               var y= document.getElementById("v4").value;
+               if(y==56)
+                    document.body.style.backgroundColor="#5dad60", alert("*plojimai*");
+                else document.body.style.backgroundColor="#db6c67", alert(">:(");    
+
+            }
+            function tikrinti5()
+            {
+               var y= document.getElementById("v5").value;
+               if(y==95)
+                    document.body.style.backgroundColor="#5dad60", alert("Valio!");
+                else document.body.style.backgroundColor="#db6c67", alert("Ašarų pakalnė");    
+
+            }
+        </script>
+    </body>
+</html>
