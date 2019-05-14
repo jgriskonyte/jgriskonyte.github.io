@@ -5,6 +5,7 @@
     </head>
     <body bgcolor=" #4d5f7c"> 
         <h1 class="antr">Interaktyvi užduotis</h1>
+        
         <p class="text">Pateik sprendimų sprendimo atsakymą</p>
         
         <p class="uzd">35-9=<input id="v1"><button onclick=tikrinti1()>Tikrinti</button></p><br/>
@@ -12,47 +13,87 @@
         <p class="uzd">54+0=<input id="v3"><button onclick=tikrinti3()>Tikrinti</button></p><br/>
         <p class="uzd">7*8=<input id="v4"><button onclick=tikrinti4()>Tikrinti</button></p><br/>
         <p class="uzd">66+29=<input id="v5"><button onclick=tikrinti5()>Tikrinti</button></p><br/>
-       
+        <p><div align="center"><img id="myg"  src="yay.gif" height="300"></p>
         <script>
+            document.getElementById("myg").style.visibility = "hidden";
             function tikrinti1()
             {
                var y= document.getElementById("v1").value;
-               if(y==26)
+               if(y==26)              
+                {
                     document.body.style.backgroundColor="#5dad60", alert("Nuostabu!");
-                else document.body.style.backgroundColor="#db6c67", alert("Verksiu :(");    
-
+                    document.getElementById("myg").style.visibility="visible";
+                     
+                }                     
+                                    
+                else
+                {
+                    document.body.style.backgroundColor="#db6c67", alert("Verksiu :("); 
+                    document.getElementById("myg").style.visibility = "hidden"; 
+                }   
             }
+            document.getElementById("myg").style.visibility = "hidden";
             function tikrinti2()
             {
                var y= document.getElementById("v2").value;
                if(y==69)
-                    document.body.style.backgroundColor="#5dad60", alert("Tau puikiai sekasi!");
-                else document.body.style.backgroundColor="#db6c67", alert("oops");    
-
+               {
+                   document.body.style.backgroundColor="#5dad60", alert("Tau puikiai sekasi!");
+                   document.getElementById("myg").style.visibility="visible";
+                   
+               }                    
+                else 
+                {
+                    document.body.style.backgroundColor="#db6c67", alert("oops"); 
+                    document.getElementById("myg").style.visibility = "hidden"; 
+                }   
             }
+            document.getElementById("myg").style.visibility = "hidden";
             function tikrinti3()
             {
                var y= document.getElementById("v3").value;
                if(y==54)
-                    document.body.style.backgroundColor="#5dad60", alert("YAY!");
-                else document.body.style.backgroundColor="#db6c67", alert("Depresija!");    
-
+               {
+                   document.body.style.backgroundColor="#5dad60", alert("YAY!");
+                   document.getElementById("myg").style.visibility="visible";
+               }
+                    
+                else 
+                {
+                    document.body.style.backgroundColor="#db6c67", alert("Depresija!");
+                    document.getElementById("myg").style.visibility = "hidden";   
+                }  
             }
+            document.getElementById("myg").style.visibility = "hidden";
             function tikrinti4()
             {
                var y= document.getElementById("v4").value;
                if(y==56)
-                    document.body.style.backgroundColor="#5dad60", alert("*plojimai*");
-                else document.body.style.backgroundColor="#db6c67", alert(">:(");    
-
+               {
+                   document.body.style.backgroundColor="#5dad60", alert("*plojimai*");
+                   document.getElementById("myg").style.visibility="visible";
+               }
+                    
+                else
+                {
+                    document.body.style.backgroundColor="#db6c67", alert(">:("); 
+                    document.getElementById("myg").style.visibility = "hidden";   
+                }  
             }
+            document.getElementById("myg").style.visibility = "hidden";
             function tikrinti5()
             {
                var y= document.getElementById("v5").value;
                if(y==95)
-                    document.body.style.backgroundColor="#5dad60", alert("Valio!");
-                else document.body.style.backgroundColor="#db6c67", alert("Ašarų pakalnė");    
-
+               {
+                   document.body.style.backgroundColor="#5dad60", alert("Valio!");
+                   document.getElementById("myg").style.visibility="visible";
+               }
+                    
+                else{
+                    document.body.style.backgroundColor="#db6c67", alert("Ašarų pakalnė");
+                    document.getElementById("myg").style.visibility = "hidden"; 
+                }     
             }
         </script>
     </body>
